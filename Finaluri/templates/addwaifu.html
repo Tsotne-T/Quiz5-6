@@ -1,0 +1,24 @@
+{%  extends 'base.html' %}
+{% block content %}
+<br> 
+<h3 class="waifu1">Add your waifu to your List</h3>
+
+
+    <form method="post" style="width:50%; margin-left: 10px">
+        <input type="text" name="name" class="form-control" placeholder="Waifu Name"><br>
+        <input type="text" name="anime" class="form-control" placeholder="Anime Name"><br>
+        <input type="text" name="rating" class="form-control"  placeholder="Rating"><br>
+
+      {% with messages=get_flashed_messages(with_categories=True) %}
+        {% for category, message in messages %}
+            <p class="{{category}}">{{message}}</p>
+        {% endfor %}
+
+      {% endwith %}
+
+
+
+      <button type="submit" class="btn btn-primary">Add Waifu</button> 
+
+    
+{% endblock %}
