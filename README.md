@@ -1,5 +1,5 @@
-# Flask based website
+# Flask Based Website
 Flask-ზე აწყობილი მცირე საიტი სადაც შესაძლებელია ავტორიზავია, Waifu-ს დამატება და API-ით წამოღებული Quote-ის ნახვა
 
-#Project
+# Project
 ჯერჯერობით დასახვეწია დიზაინი და კოდის მხარე :)
